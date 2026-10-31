@@ -116,3 +116,7 @@ python tools/build_library.py --export   # the same, and also writes the new ind
 - **Cached model outputs** in `lab/features/` and `eval/results/ext/` hold judge outputs (probabilities, ratings and a short benchmark guess) and attempt token counts for measurement-db items, keyed by item id. Some files also keep the short final answers of earlier attempts. No item text is included.
 - **The library index** in `submissions/v9_lib/publib_data/` is derived from the public per-item results of the 13 benchmarks in `data/public_results/READY.txt`, all listed in the competition's benchmark inventory. It stores hashed text shingles, never item text, and the recorded outcomes per model and configuration. Each source keeps its own licence.
 - We never used hidden-test feedback to choose library benchmarks or to identify hidden benchmarks or subjects. No feedback files are part of this repository.
+
+## Licence
+
+The code in this repository is released under the MIT License (see `LICENSE`). Data derived from third-party releases keeps the licence of its source. This covers the library index in `submissions/v9_lib/publib_data/` and the snapshots and file lists in `data/public_results/`; `data/public_results/SOURCES.md` lists every source.
