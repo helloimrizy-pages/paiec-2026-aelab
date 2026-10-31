@@ -1,0 +1,34 @@
+{
+  "model": "gpt-5.6-luna",
+  "effort": "low",
+  "head_c": -1.2792860206023908,
+  "head_w": [
+    1.2696890012604494,
+    -0.6519965697507424,
+    -0.3279198639612496
+  ],
+  "mund_c": -1.4872377781962562,
+  "mund_bB": 1.5384721351825523,
+  "mund_bW": 0.3261561626545137,
+  "mund_bE": 0.6529542753617981,
+  "attempt_effort": "medium",
+  "attempt_max_output_tokens": 25000,
+  "attempt_timeout": 100,
+  "timeout_tokens": 8000,
+  "call_budget": 110,
+  "cache": true,
+  "api_key": "",
+  "signal": "total_output_tokens+answer_tokens+groups+sibling",
+  "effort_slope_sd": 0.4,
+  "integration_nodes": [
+    41,
+    21,
+    9,
+    7
+  ],
+  "answer_slope_sd": 0.3,
+  "answer_scale": 0.755531800877751,
+  "group_sd": 1.0,
+  "sibling_gamma": 1.6,
+  "b0_tau": 1.25
+}

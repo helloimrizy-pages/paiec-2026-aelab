@@ -1,0 +1,42 @@
+{
+ "model": "gpt-5.6-luna",
+ "effort": "low",
+ "head_c": -0.8937433044976437,
+ "head_w": [
+  0.8115928187236712,
+  -0.40097846569569373,
+  -0.12695965463005435
+ ],
+ "mund_c": -0.97486890073028,
+ "mund_bB": 0.9446382375166664,
+ "mund_bW": 0.3007651398737696,
+ "mund_bE": 0.8046133332118504,
+ "attempt_effort": "medium",
+ "attempt_max_output_tokens": 25000,
+ "attempt_timeout": 100,
+ "timeout_tokens": 8000,
+ "call_budget": 110,
+ "cache": true,
+ "api_key": "",
+ "signal": "total_output_tokens(mean luna+haiku)+answer_tokens+groups+sibling+public_library",
+ "effort_slope_sd": 0.4,
+ "integration_nodes": [
+  41,
+  21,
+  9,
+  7
+ ],
+ "answer_slope_sd": 0.3,
+ "answer_scale": 0.755531800877751,
+ "group_sd": 1.0,
+ "sibling_gamma": 1.6,
+ "b0_tau": 1.25,
+ "calibration": "blend50: budget-0 head and pair-level mapping (head_c, head_w, mund_c, mund_bB) are the mean of the 4-pilot-benchmark fit (v7) and a fit on 97 measurement-db training-pool benchmarks (H21, rev 54074453); within-pair slopes (mund_bW, mund_bE) and all other constants unchanged from v7; v9: Mundlak constants refit with effort = mean of luna and haiku -log(1+output tokens) (H23)",
+ "attempt2": true,
+ "attempt2_model": "claude-haiku-5-5",
+ "attempt2_effort": "medium",
+ "anthropic_api_key": "",
+ "anthropic_workspace_id": "",
+ "use_library": true,
+ "easy_mode": "easy"
+}

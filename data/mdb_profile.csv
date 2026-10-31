@@ -1,0 +1,205 @@
+benchmark,error,name,modality,domain,response_type,release,binary,in01,subjects,items,responses,elig_pairs,elig_recent,elig_named,mean_rate,sd_rate
+.cache,"FileNotFoundError(2, 'No such file or directory')",,,,,,,,,,,,,,,
+adaptivestep,,AdaptiveStep candidate pools,['text'],['mathematics' 'coding' 'reasoning'],binary,public,True,True,3.0,3638.0,931328.0,0.0,0.0,0.0,,
+afrieval,,MasakhaNER 1.0 and 2.0: released NER predictions,['text'],['natural_language_processing'],binary,public,True,True,948.0,35205.0,1403380.0,192.0,0.0,0.0,0.6825101723068506,0.11429448110706189
+afrimedqa,,AfriMed-QA,['text'],['medicine'],binary,public,True,True,34.0,39494.0,281354.0,0.0,0.0,0.0,,
+agc_bench,,AGC-Bench,['text' 'image'],['reasoning' 'nlp_task'],mixed,public,False,False,83.0,6735.0,365290.0,0.0,0.0,0.0,,
+agentdojo,,AgentDojo,['text'],['agents_and_tool_use' 'safety'],mixed,public,True,True,29.0,1081.0,69796.0,22.0,0.0,22.0,0.333725588865325,0.11415560909630984
+agentic_review_perturbation,,Agentic Review Systems — Perturbation Benchmark,['text'],['science' 'reasoning'],binary,public,True,True,3.0,105.0,315.0,3.0,3.0,3.0,0.09523809523809523,0.04151332327181594
+agi_elo,,AGI-Elo,['text'],['general' 'reasoning'],binary,public,True,True,20.0,13953.0,277106.0,0.0,0.0,0.0,,
+ai2d_test,,AI2D_TEST,['text' 'image'],['science'],binary,public,True,True,254.0,3088.0,784094.0,0.0,0.0,0.0,,
+algotune,,AlgoTune,['text'],['software_engineering' 'reasoning'],binary,public,True,True,18.0,154.0,2772.0,18.0,18.0,18.0,0.7074314574314574,0.11565589978025355
+alignment_faking,,Alignment Faking (RL),['text'],['safety'],binary,public,True,True,4278.0,1464.0,2093849.0,4278.0,32.0,4278.0,0.4092725340378971,0.28377996785833637
+alpacaeval,,AlpacaEval 2.0 weighted preferences,['text'],['general'],continuous_bounded,public,False,True,221.0,805.0,177886.0,221.0,0.0,52.0,0.22367348382096466,0.19699576912479277
+annotating_errors_wcf,,Annotating Errors in English Learners' Written Language (WCF),['text'],['education' 'nlp_task'],mixed,public,False,False,5.0,15344.0,15344.0,0.0,0.0,0.0,,
+appworld,,AppWorld,['text' 'gui_screenshot'],['agents_and_tool_use'],binary,public,True,True,18.0,585.0,10530.0,18.0,2.0,18.0,0.2529914529914529,0.2109293656931394
+arcagi,,ARC-AGI,['grid'],['reasoning'],continuous_bounded,public,False,True,80.0,526.0,35236.0,75.0,40.0,42.0,0.5387538988250841,0.2894835862638783
+atmossci_bench,,AtmosSci-Bench,['text'],['science' 'reasoning'],continuous,public,False,True,54.0,2310.0,36929.0,51.0,4.0,46.0,0.5107641950360814,0.2108620979982575
+babilong,,BABILong,['text'],['reasoning'],binary,public,True,True,83.0,526202.0,2020951.0,11.0,1.0,8.0,0.5876461006461007,0.28066287249406174
+bbq,,BBQ,['text'],['safety'],binary,public,True,True,7.0,204093.0,380089.0,0.0,0.0,0.0,,
+beavertails,,BeaverTails,['text'],['safety'],binary,public,True,True,4.0,420.0,1680.0,4.0,0.0,4.0,0.7464285714285714,0.25088279508716477
+bedd_basalt,,BEDD: MineRL BASALT Evaluation Dataset,['video' 'text'],['navigation' 'planning'],mixed,public,False,True,15.0,42265.0,46368.0,0.0,0.0,0.0,,
+benger,,BenGER,['text'],['law' 'reasoning'],binary,public,True,True,41.0,760.0,9302.0,25.0,25.0,25.0,0.830089926465241,0.09577136148172154
+bertaqa,,BertaQA,['text'],['cultural' 'multilingual' 'knowledge'],binary,public,True,True,6.0,51760.0,57072.0,0.0,0.0,0.0,,
+bigfinancebench,,BigFinanceBench,['text'],['finance' 'agents_and_tool_use'],mixed,public,False,True,10.0,600.0,9000.0,10.0,9.0,9.0,0.39907158691559896,0.10903060374349052
+biggen,,BiGGen-Bench,['text'],['general'],likert_5,public,False,False,103.0,4589.0,979501.0,0.0,0.0,0.0,,
+bird_sql,,BIRD (text-to-SQL),['text'],['software_engineering'],binary,public,True,True,120.0,360.0,43200.0,120.0,0.0,120.0,0.08865740740740741,0.11181359592232461
+brace,,BRACE (CAF-Score decisions),['audio' 'text'],['general'],binary,public,True,True,28.0,12631.0,202096.0,0.0,0.0,0.0,,
+bridging_gap,,Bridging-the-Gap African Languages,['text'],['multilingual' 'medical_knowledge'],binary,public,True,True,417.0,132418.0,4706881.0,352.0,0.0,0.0,0.45035625970625404,0.13516281697472343
+care_enzymes,,CARE: Classification and Retrieval of Enzymes,['text'],['science'],continuous_bounded,public,False,True,22.0,4136.0,16817.0,15.0,0.0,0.0,0.13803203951061363,0.21223388685936956
+ceval,,C-Eval,['text'],['multilingual' 'reasoning'],binary,public,True,True,11.0,1346.0,14806.0,0.0,0.0,0.0,,
+chatgpt_drift,,ChatGPT Drift (LLMDrift),['text'],['general' 'reasoning' 'safety'],mixed,public,True,True,12.0,11479.0,46832.0,4.0,0.0,4.0,0.46863636363636363,0.23382494452730143
+chi_bench,,CHI-Bench,['text'],['medicine' 'agents_and_tool_use'],binary,public,True,True,62.0,775.0,7667.0,0.0,0.0,0.0,,
+chipbench,,ChiPBench,['text' 'code'],['science'],mixed,public,False,False,11.0,190.0,1400.0,8.0,0.0,0.0,,
+clasheval,,ClashEval,['text'],['knowledge' 'safety'],binary,public,True,True,6.0,12495.0,75216.0,0.0,0.0,0.0,,
+classroom_ai,,Classroom AI,['text'],['education'],ordinal,public,False,False,14.0,734.0,10360.0,14.0,0.0,0.0,,
+cmmlu,,CMMLU,['text'],['knowledge' 'reasoning'],binary,public,True,True,22.0,23160.0,254804.0,0.0,0.0,0.0,,
+complexbench,,ComplexBench,['text'],['general'],fraction,public,False,False,15.0,0.0,0.0,0.0,0.0,0.0,,
+corebench,,CORE-Bench,['text'],['science'],fraction,public,False,True,11.0,270.0,1956.0,4.0,0.0,4.0,0.3269156576448243,0.1938531965813212
+critic_discernment_game,,Critic-Discernment Game,['text'],['mathematics'],binary,public,True,True,4.0,1819.0,7276.0,2.0,1.0,2.0,0.445,0.014142135623730963
+crow,,CROW,['text'],['safety'],binary,public,True,True,34.0,1709.0,4976.0,26.0,0.0,0.0,0.08632150597498665,0.18004772355061147
+cruxeval,,CRUXEval,['text'],['software_engineering'],binary,public,True,True,31.0,4000.0,992000.0,0.0,0.0,0.0,,
+csedb,,CSEDB,['text'],['medicine' 'safety'],fraction,public,False,True,7.0,2069.0,41911.0,0.0,0.0,0.0,,
+das_med_hallucination,,DAS Medical Hallucination,['text'],['medicine' 'safety'],ordinal,public,False,True,15.0,108.0,1918.0,15.0,6.0,9.0,0.682195052281881,0.08336943795801394
+dataclawbench,,DataClawBench,['text'],['finance' 'agents_and_tool_use' 'reasoning'],fraction,public,False,True,8.0,492.0,3936.0,8.0,8.0,8.0,0.381611712398374,0.12572084073158574
+dave,,DAVE,['text' 'audio' 'video'],['general' 'reasoning'],binary,public,True,True,8.0,3922.0,19248.0,0.0,0.0,0.0,,
+decodingtrust,,DecodingTrust,['text'],['safety'],mixed,public,True,True,11.0,384702.0,1482425.0,0.0,0.0,0.0,,
+devbench,,DevBench,['image' 'text'],['language' 'cognition'],binary,public,True,True,19.0,271.0,5149.0,19.0,0.0,0.0,0.5686541075937076,0.23852375796415193
+disco,,DIS-CO (MovieTection),['image' 'text'],['knowledge'],binary,public,True,True,4.0,28000.0,111906.0,0.0,0.0,0.0,,
+donotanswer,,Do-Not-Answer,['text'],['safety'],mixed,public,False,False,6.0,1876.0,11268.0,0.0,0.0,0.0,,
+dpai,,DPAI Arena,['text'],['coding' 'agents_and_tool_use'],mixed,public,False,False,26.0,306.0,4590.0,15.0,4.0,4.0,,
+editbench,,EDIT-Bench,['text'],['software_engineering' 'multilingual'],binary,public,True,True,44.0,540.0,23328.0,44.0,33.0,44.0,0.47697811447811456,0.08590249402736418
+edu_circuit_hw,,EDU-CIRCUIT-HW,['text' 'image'],['education' 'science'],binary,public,True,True,6.0,513.0,2886.0,6.0,6.0,6.0,0.35157750415619,0.17417884630987
+eduguardbench,,EduGuardBench,['text'],['education' 'safety'],mixed,public,False,False,14.0,7493.0,189868.0,0.0,0.0,0.0,,
+egoschema,,EgoSchema (released LLoVi configurations),['text'],['reasoning'],binary,public,True,True,11.0,4500.0,5500.0,11.0,0.0,11.0,0.5623636363636364,0.040504994080416114
+elicitation_game,,The Elicitation Game,['text'],['safety' 'knowledge'],binary,public,True,True,14.0,2960.0,14070.0,7.0,0.0,0.0,0.4413127413127413,0.1499915936749585
+embodied_agent_interface,,Embodied Agent Interface,['text'],['embodied agents'],continuous_bounded,public,False,False,25.0,0.0,0.0,0.0,0.0,0.0,,
+emoji_attack,,Emoji Attack (released EasyJailbreak results),['text'],['safety'],binary,public,True,True,10.0,15153.0,58860.0,0.0,0.0,0.0,,
+engdesign,,EngDesign,['text'],['science' 'reasoning'],binary,public,True,True,16.0,101.0,5393.0,12.0,6.0,12.0,0.25074310228477714,0.06760747115974544
+evouna,,EVOUNA,['text'],['knowledge'],binary,public,True,True,5.0,5162.0,25359.0,0.0,0.0,0.0,,
+faithcot,,FaithCoT-Bench (released FINE-CoT generator measurements),['text'],['reasoning' 'safety'],binary,public,True,True,4.0,684.0,2519.0,4.0,1.0,4.0,0.6816681340945436,0.11308670983956694
+fetv,,FETV,['text' 'video'],['general'],mixed,public,False,False,4.0,20788.0,41576.0,0.0,0.0,0.0,,
+fewshot_ttt_bbh,,Few-Shot TTT (BIG-Bench Hard),['text'],['reasoning'],binary,public,True,True,11.0,1310.0,7425.0,11.0,0.0,11.0,0.5379124579124579,0.04513271778588113
+fgbench,,FGBench,['text'],['science' 'reasoning'],mixed,public,False,False,8.0,7142.0,54072.0,0.0,0.0,0.0,,
+financebench,,FinanceBench,['text'],['finance'],binary,public,True,True,16.0,150.0,2400.0,16.0,0.0,16.0,0.47291666666666665,0.30327075056481817
+find_interp,,FIND,['text'],['reasoning' 'programming'],mixed,public,False,False,5.0,408.0,408.0,1.0,0.0,1.0,,
+finegrain_t2i,,FineGRAIN (T2I),['text' 'image'],['general'],binary,public,True,True,17.0,750.0,3750.0,5.0,0.0,5.0,0.516,0.0
+frontieror,,FrontierOR,['text'],['reasoning' 'software_engineering' 'mathematics'],ordinal,public,False,True,15.0,180.0,2230.0,12.0,0.0,0.0,0.37657407407407417,0.17160263807613102
+genai_learning,,GenAI Learning,['text' 'document'],['education' 'mathematics'],mixed,public,False,True,944.0,162.0,29013.0,0.0,0.0,0.0,,
+ghosts_math,,GHOSTS,['text'],['mathematics'],likert_5,public,False,False,3.0,478.0,1066.0,3.0,0.0,3.0,,
+goodai_ltm_benchmark,,GoodAI LTM Benchmark,['text'],['long_term_memory'],mixed,public,False,False,37.0,452.0,3507.0,19.0,0.0,13.0,,
+haiid,,HAIID,['text' 'image'],['human_ai_interaction'],binary,public,True,True,1126.0,152.0,71364.0,0.0,0.0,0.0,,
+hallusionbench,,HallusionBench,['text' 'image'],['reasoning'],binary,public,True,True,254.0,951.0,239475.0,253.0,34.0,253.0,0.5633266269661743,0.114242590443349
+harmbench,,HarmBench,['text' 'image'],['safety'],binary,public,True,True,33.0,62160.0,107274.0,4.0,0.0,2.0,0.5829545454545455,0.26236960555170136
+healthadminbench,,HealthAdminBench,['text' 'image'],['medicine' 'agents_and_tool_use'],binary,public,True,True,7.0,540.0,7020.0,7.0,5.0,5.0,0.24164021164021166,0.07708779997227796
+helm_afr,,HELM African MMLU + Winogrande,['text'],['multilingual'],binary,public,True,True,22.0,72223.0,745360.0,0.0,0.0,0.0,,
+helm_airbench,,AIR-Bench 2024,['text'],['safety'],continuous_bounded,public,False,True,66.0,7723.0,375804.0,0.0,0.0,0.0,,
+helm_anthropic_redteam,,Anthropic Red Team,['text'],['safety'],continuous_bounded,public,False,True,81.0,995.0,81000.0,81.0,43.0,81.0,0.973625,0.04533420600799136
+helm_bbq,,BBQ,['text'],['safety'],binary,public,True,True,81.0,2000.0,81000.0,81.0,43.0,81.0,0.8829012345679014,0.12123341174551175
+helm_bold,,BOLD,['text'],['safety'],fraction,public,True,True,42.0,2028.0,42000.0,42.0,0.0,42.0,0.0020952380952380953,0.0030508657212740555
+helm_cleva,,HELM CLEVA (Chinese),['text'],['multilingual'],mixed,public,False,True,30.0,6985.0,26512.0,22.0,0.0,22.0,0.6352627608429217,0.2858579219111375
+helm_harmbench,,HarmBench,['text'],['safety'],continuous_bounded,public,False,True,81.0,403.0,32400.0,81.0,43.0,81.0,0.7391820987654321,0.19487209451949533
+helm_real_toxicity_prompts,,RealToxicityPrompts,['text'],['safety'],fraction,public,False,True,42.0,2006.0,42000.0,42.0,0.0,42.0,0.029092857142857143,0.014740294745988165
+helm_simple_safety_tests,,SimpleSafetyTests,['text'],['safety'],continuous_bounded,public,False,True,81.0,100.0,8100.0,81.0,43.0,81.0,0.9591666666666666,0.09140825318317816
+helm_thaiexam,,HELM Thai Exam,['text'],['multilingual'],binary,public,True,True,42.0,565.0,23730.0,42.0,0.0,40.0,0.46312684365781703,0.13806453469846272
+helm_xstest,,XSTest,['text'],['safety'],continuous_bounded,public,False,True,81.0,450.0,36450.0,81.0,43.0,81.0,0.9409876543209876,0.054560816673226056
+hivmedqa,,HIVMedQA,['text'],['medicine'],continuous,public,False,False,13.0,2425.0,52153.0,13.0,4.0,12.0,,
+hle,,Humanity's Last Exam,['text' 'image'],['knowledge' 'reasoning'],binary,public,True,True,20.0,2247.0,13777.0,2.0,2.0,2.0,0.34205580865603646,0.23625259027457143
+icpc2_code_selector,,ICPC-2 Code Selector,['text'],['medicine' 'multilingual' 'knowledge'],binary,public,True,True,39.0,2175.0,70905.0,0.0,0.0,0.0,,
+igakuqa,,IgakuQA,['text'],['medicine'],binary,public,True,True,5.0,2942.0,7355.0,0.0,0.0,0.0,,
+ikp,,IKP,['text'],['knowledge'],binary,public,True,True,170.0,1400.0,268351.0,2.0,2.0,2.0,0.47271240105540896,0.38001672195039776
+image2struct,,Image2Struct,['image' 'text'],['vision_language' 'code_generation'],mixed,public,False,True,14.0,30636.0,142968.0,0.0,0.0,0.0,,
+imagenet_hard,,ImageNet-Hard zoom study: ImageNet-A,['image'],['general' 'computer_vision'],binary,withheld,True,True,13.0,7496.0,97500.0,0.0,0.0,0.0,,
+indeterminacy,,Indeterminacy Experiments,['text'],['classification' 'summarization' 'dialogue'],mixed,public,False,False,9.0,4284.0,382957.0,0.0,0.0,0.0,,
+infibench,,InfiBench,['text'],['code'],continuous_unbounded,public,False,True,121.0,369.0,699042.0,121.0,0.0,13.0,0.2564333132198688,0.15991795278957233
+intercode,,InterCode,['text' 'code'],['code' 'tool_use'],mixed,public,False,True,26.0,2484.0,17740.0,12.0,0.0,5.0,0.7185493765386468,0.12368693049706964
+jailbreakbench,,JailbreakBench,['text'],['safety'],binary,public,True,True,10.0,2001.0,3074.0,10.0,0.0,10.0,0.6934888710732677,0.35807666410763
+jetts,,JETTS generator response pool,['text'],['mathematics' 'software_engineering' 'instruction_following'],mixed,public,False,True,8.0,5940.0,328685.0,0.0,0.0,0.0,,
+judgetuning,,JudgeTuning LMSys human agreement,['text'],['preference_evaluation'],binary,public,True,True,7.0,3000.0,21000.0,0.0,0.0,0.0,,
+kernelbench,,KernelBench,['text'],['ml_engineering' 'software_engineering'],binary,public,True,True,19.0,250.0,73984.0,18.0,4.0,18.0,0.2379047060568477,0.14516235881649028
+kmmlu,,KMMLU,['text'],['general'],binary,public,True,True,30.0,35015.0,1007230.0,0.0,0.0,0.0,,
+kormedmcqa,,KorMedMCQA,['text'],['medicine'],binary,public,True,True,7.0,3009.0,21391.0,0.0,0.0,0.0,,
+kris_bench,,KRIS-Bench,['image' 'text'],['general' 'reasoning'],likert_5,public,False,False,20.0,8941.0,130159.0,0.0,0.0,0.0,,
+lambda_fp_course,,Functional Programming Course LLM Evaluation,['text'],['education' 'software_engineering'],mixed,public,False,False,9.0,152.0,6798.0,9.0,0.0,0.0,,
+lawbench,,LawBench,['text'],['law' 'multilingual'],mixed,public,False,True,51.0,219765.0,865419.0,0.0,0.0,0.0,,
+legal_rag_bench,,Legal RAG Bench,['text'],['law' 'knowledge' 'reasoning'],binary,public,True,True,6.0,300.0,1800.0,6.0,6.0,6.0,0.7888888888888889,0.1032723834584309
+legalbench,,LegalBench,['text'],['law' 'reasoning'],binary,public,True,True,31.0,9393.0,63457.0,0.0,0.0,0.0,,
+lexeval,,LexEval,['text'],['law'],mixed,public,False,True,38.0,39908.0,1076280.0,0.0,0.0,0.0,,
+lingoly,,LINGOLY,['text'],['reasoning' 'multilingual'],binary,public,True,True,11.0,12463.0,24926.0,0.0,0.0,0.0,,
+liveaopsbench,,LiveAoPSBench,['text'],['mathematics' 'reasoning'],binary,public,True,True,13.0,5323.0,69264.0,0.0,0.0,0.0,,
+livebench,,LiveBench,['text'],['general'],continuous,public,False,True,200.0,1286.0,165334.0,108.0,0.0,0.0,0.43523523917034596,0.15808266668646942
+llm4ir,,LLM4IR (LaMIR),['text'],['software_engineering' 'reasoning'],mixed,public,False,False,19.0,1804.0,5348.0,17.0,0.0,0.0,,
+llm_survey_simulation,,LLM survey-simulation responses (EEDI and OpinionQA),['text'],['mathematics' 'cultural'],mixed,public,False,False,8.0,797.0,669177.0,8.0,0.0,0.0,,
+llm_uncertainty_bench,,LLM-Uncertainty-Bench,['text'],['knowledge' 'reasoning' 'language'],binary,public,True,True,102.0,149793.0,5100000.0,0.0,0.0,0.0,,
+llmail_inject,,LLMail-Inject,['text'],['safety' 'cybersecurity' 'agents_and_tool_use'],binary,public,True,True,23.0,207043.0,461016.0,2.0,0.0,2.0,0.0029917726252804786,0.004231005422208212
+llms_lean_formalization,,LLMs-Lean historical evaluations of miniF2F and miniCTX,['text'],['mathematics' 'reasoning'],binary,public,True,True,120.0,588.0,64092.0,120.0,0.0,0.0,0.3494488855519761,0.15329208255230042
+lohi_drug_discovery,,Lo-Hi Drug Discovery Benchmark,['text'],['chemistry' 'medicine'],mixed,public,False,False,213.0,0.0,0.0,0.0,0.0,0.0,,
+matharena_platform,,MathArena Platform,['text'],['mathematics' 'reasoning'],mixed,public,False,True,68.0,1414.0,32503.0,35.0,0.0,0.0,0.4390673705995733,0.23228975260143397
+mathconstraint,,MathConstraint,['text'],['mathematics' 'reasoning'],binary,public,True,True,12.0,504.0,11862.0,12.0,11.0,12.0,0.6464480375696523,0.15329608997442928
+mathvista_mini,,MathVista MINI,['text' 'image'],['mathematics'],binary,public,True,True,263.0,1000.0,268820.0,263.0,0.0,0.0,0.5087054563242454,0.15716003721524008
+medhelm_ehr_sql,,MedHELM EHRSQL,['text'],['medicine'],binary,public,True,True,13.0,1000.0,13000.0,13.0,6.0,13.0,0.17853846153846156,0.08331127913295554
+medhelm_head_qa,,MedHELM HEAD-QA,['text'],['medicine' 'multilingual'],binary,public,True,True,13.0,1000.0,13000.0,13.0,6.0,13.0,0.8817692307692309,0.05941962897639391
+medhelm_med_mcqa,,MedHELM MedMCQA,['text'],['medicine'],binary,public,True,True,13.0,1000.0,13000.0,13.0,6.0,13.0,0.7611538461538461,0.05313951159267171
+medhelm_med_qa,,MedHELM MedQA,['text'],['medicine'],binary,public,True,True,13.0,1000.0,13000.0,13.0,6.0,13.0,0.876,0.06754257916307312
+medhelm_medbullets,,MedHELM Medbullets,['text'],['medicine'],binary,public,True,True,13.0,298.0,4004.0,13.0,6.0,13.0,0.7022977022977023,0.12576287012216456
+medhelm_medcalc_bench,,MedHELM MedCalc-Bench,['text'],['medicine'],binary,public,True,True,13.0,992.0,13000.0,13.0,6.0,13.0,0.247,0.0958636184030904
+medhelm_medec,,MedHELM MEDEC,['text'],['medicine'],binary,public,True,True,13.0,597.0,7761.0,13.0,6.0,13.0,0.5820126272387578,0.05367812489736743
+medhelm_medhallu,,MedHELM MedHallu,['text'],['medicine'],binary,public,True,True,13.0,2000.0,13000.0,13.0,6.0,13.0,0.8757692307692309,0.032409242113307354
+medhelm_pubmed_qa,,MedHELM PubMedQA,['text'],['medicine'],binary,public,True,True,13.0,1500.0,11000.0,13.0,6.0,13.0,0.7075384615384616,0.05001602307363674
+medhelm_race_based_med,,MedHELM RaceBasedMed,['text'],['medicine'],binary,public,True,True,13.0,167.0,2171.0,13.0,6.0,13.0,0.8033164440350068,0.09950593746599551
+medwatermark_fws,,MedWatermark-FWS,['text'],['medicine' 'safety'],likert_5,public,False,False,72.0,1782.0,14400.0,23.0,0.0,0.0,,
+mj_bench,,MJ-Bench released judge observations,['image' 'text'],['reward_modeling' 'preference'],binary,public,True,True,82.0,15630.0,102859.0,12.0,0.0,0.0,0.3435471447392817,0.2802935097588431
+mlip_arena,,MLIP Arena,['text'],['science'],mixed,public,False,False,71.0,12940.0,116036.0,19.0,0.0,0.0,,
+mlrbench,,MLR-Bench,['text'],['ml_engineering' 'reasoning'],likert_10,public,False,False,6.0,5226.0,31356.0,0.0,0.0,0.0,,
+mmbench_v11,,MMBench V1.1 recorded answers,['text' 'image'],['reasoning'],binary,public,True,True,251.0,12175.0,3115891.0,1.0,0.0,0.0,0.5272727272727272,
+mmlu,,MMLU,['text'],['knowledge' 'reasoning'],binary,public,True,True,150.0,14015.0,2106300.0,0.0,0.0,0.0,,
+mmlupro,,MMLU-Pro,['text'],['knowledge' 'reasoning'],binary,public,True,True,48.0,14109.0,536290.0,0.0,0.0,0.0,,
+mmmu_dev_val,,MMMU_DEV_VAL,['text' 'image'],['reasoning' 'science' 'mathematics'],binary,public,False,False,253.0,0.0,0.0,0.0,0.0,0.0,,
+mmoral_bench,,MMOral-Bench recorded policies,['image' 'text'],['medicine'],mixed,public,True,True,85.0,491.0,28679.0,58.0,0.0,0.0,0.5688397966111087,0.057245372451014666
+mochi,,MOCHI,['image'],['vision'],continuous_bounded,public,False,False,24.0,3717.0,48456.0,0.0,0.0,0.0,,
+moe_cap,,MoE-CAP,['text'],['mathematics' 'knowledge' 'instruction_following'],mixed,public,True,True,50.0,9216.0,58088.0,13.0,0.0,12.0,0.423076923076923,0.27635679279344105
+monkey_power_laws,,Large Language Monkeys: Monkey Business,['text'],['mathematics' 'software_engineering' 'reasoning'],binary,public,True,True,13.0,525.0,28780000.0,13.0,0.0,13.0,0.07960335699080148,0.13017666443766987
+morphkv,,MorphKV results on LongGenBench,['text'],['reasoning'],binary,public,True,True,11.0,529.0,3674.0,9.0,0.0,0.0,0.41008206754024273,0.025938497446926157
+mtbbench,,MTBBench,['text' 'image'],['medicine' 'agents_and_tool_use'],binary,public,True,True,25.0,573.0,8397.0,25.0,0.0,0.0,0.6151429218577035,0.05242855536143682
+multi_moe,,Multi-MoE,['text'],['knowledge' 'reasoning' 'instruction_following'],mixed,public,True,True,11.0,5060.0,9060.0,0.0,0.0,0.0,,
+multimodal_stem_ai,,Multimodal STEM Assessments (Human-AI),['text' 'image'],['education' 'science' 'reasoning'],continuous_bounded,public,False,True,17.0,249.0,4335.0,17.0,4.0,9.0,0.5479907727797001,0.026038623344800324
+mypcbench,,MyPCBench,['text' 'gui_screenshot'],['agents_and_tool_use'],binary,public,True,True,6.0,118.0,118.0,0.0,0.0,0.0,,
+naep_llm_students,,NAEP LLM-as-Student,['text'],['education' 'mathematics' 'reasoning'],binary,public,True,True,11.0,488.0,53680.0,11.0,0.0,7.0,0.7664493293591654,0.10399440122107041
+nanobaselib,,NanoBaseLib RNA Modification Detection,['genomic'],['biology'],continuous_bounded,public,False,False,10.0,0.0,0.0,0.0,0.0,0.0,,
+nester,,NESTER,['text'],['software_engineering'],binary,public,True,True,3.0,356.0,1128.0,3.0,0.0,3.0,0.9246453900709221,0.015583684247559359
+oasst,,OpenAssistant OASST1: model-attributed assistant replies,['text'],['preference'],ordinal,public,False,False,31.0,595.0,2920.0,11.0,0.0,0.0,,
+openbiorq,,OpenBioRQ,['text'],['medicine' 'science' 'agents_and_tool_use'],binary,public,True,True,11.0,657.0,7213.0,11.0,11.0,11.0,0.3071223533530522,0.20564778609719903
+perumedqa,,PeruMedQA,['text'],['medicine' 'knowledge' 'multilingual'],binary,public,True,True,11.0,8259.0,85107.0,0.0,0.0,0.0,,
+phyblock,,PhyBlock,['text' 'image'],['reasoning' 'general'],continuous,public,False,True,21.0,1362.0,9524.0,21.0,6.0,21.0,0.36312520575956697,0.10187416673186316
+pku_saferlhf,,PKU-SafeRLHF,['text'],['safety'],binary,public,True,True,3.0,39994.0,164236.0,0.0,0.0,0.0,,
+planbench,,PlanBench,['text'],['reasoning'],binary,public,True,True,42.0,11076.0,38061.0,17.0,0.0,0.0,0.2497906037905769,0.20909639744852193
+preference_dissection,,Preference Dissection,['text'],['preference'],nominal,public,True,True,32.0,5239.0,167680.0,0.0,0.0,0.0,,
+prism,,PRISM Alignment,['text'],['preference'],mixed,public,False,False,21.0,53926.0,136742.0,0.0,0.0,0.0,,
+proteininvbench,,ProteinInvBench,['text'],['biology'],continuous_bounded,public,False,True,16.0,7410.0,23872.0,0.0,0.0,0.0,,
+psychosis_bench,,Psychosis-bench,['text'],['medicine' 'safety'],mixed,public,False,False,8.0,2687.0,2687.0,8.0,7.0,8.0,,
+qatch,,QATCH,['text' 'table'],['tabular' 'code'],continuous,public,False,True,6.0,36458.0,61381.0,0.0,0.0,0.0,,
+rakuda,,Rakuda,['text'],['multilingual'],continuous,public,False,False,647.0,247.0,57528.0,419.0,0.0,15.0,,
+rclicks,,RClicks: released clickability-model measurements,['image'],['computer_vision' 'segmentation'],mixed,public,False,False,16.0,29035.0,251820.0,0.0,0.0,0.0,,
+real_pocqi,,Real-POCQi,['text'],['medicine' 'preference'],win_rate,public,False,True,4.0,3100.0,11560.0,0.0,0.0,0.0,,
+reasoning_gym,,Reasoning Gym: original zero-shot completions,['text'],['reasoning' 'mathematics'],continuous_bounded,public,False,True,14.0,56178.0,186105.0,0.0,0.0,0.0,,
+refgrader,,RefGrader,['text'],['mathematics'],ordinal,public,False,False,31.0,3597.0,6042.0,20.0,0.0,0.0,,
+rewardbench,,RewardBench,['text'],['reward_modeling'],ordinal,public,True,True,167.0,4045.0,491343.0,0.0,0.0,0.0,,
+risebench,,RISEBench,['image' 'text'],['reasoning' 'general'],binary,public,True,True,23.0,1080.0,8271.0,23.0,6.0,6.0,0.1646080368906456,0.16415793091116887
+safeagentbench,,SafeAgentBench (TRIDENT instruction decisions),['text'],['safety' 'agents_and_tool_use'],binary,public,True,True,6.0,665.0,4500.0,6.0,0.0,1.0,0.45,0.10570483012195381
+scale_mrt,,Scale MRT (Monitor Red Teaming),['text'],['safety'],mixed,public,False,False,633.0,34166.0,50461.0,165.0,60.0,165.0,,
+sciarena,,SciArena,['text'],['science'],win_rate,public,False,True,23.0,8393.0,26408.0,9.0,8.0,9.0,0.5409579351195238,0.13247148503671732
+scigym,,SciGym,['text'],['science' 'reasoning'],mixed,public,False,True,6.0,822.0,4932.0,6.0,5.0,6.0,0.19920154597138792,0.06804256129900682
+sib200,,SIB-200,['text'],['multilingual'],binary,public,True,True,3343.0,41820.0,681564.0,3341.0,0.0,0.0,0.7057576397814438,0.18278985796944677
+software_world_models,,Software World Models (DL4C'26),['text'],['software_engineering' 'reasoning'],binary,public,True,True,18.0,434.0,7830.0,18.0,18.0,18.0,0.5715197956577266,0.05972921515758397
+stanford_orb,,Stanford-ORB,['image' '3d'],['computer_vision'],mixed,public,False,False,13.0,630.0,5670.0,13.0,0.0,0.0,,
+statqa,,StatQA,['text' 'tabular'],['mathematics' 'reasoning'],binary,public,True,True,46.0,1158.0,44194.0,0.0,0.0,0.0,,
+subjective_qa,,SubjECTive-QA,['text'],['finance' 'nlp_task'],binary,public,True,True,5.0,10920.0,16164.0,0.0,0.0,0.0,,
+sustainable_food,,Sustainable Food Recipe Preference Prediction,['text'],['preference'],binary,public,True,True,6.0,500.0,2999.0,6.0,0.0,0.0,0.569877755511022,0.0665651027850442
+swe_smith,,SWE-smith,['text'],['software_engineering' 'agents_and_tool_use'],binary,public,True,True,3.0,15616.0,49897.0,1.0,0.0,1.0,0.32954545454545453,
+swe_together,,SWE-Together,['text'],['software_engineering' 'agents_and_tool_use'],binary,withheld,True,True,20.0,109.0,4341.0,20.0,0.0,0.0,0.6017352426877515,0.07232811531588632
+swepolybench,,SWE-PolyBench,['text'],['software_engineering'],binary,public,True,True,7.0,547.0,1870.0,6.0,0.0,0.0,0.42378022277246696,0.12148568806566978
+synthpai,,SynthPAI,['text'],['safety' 'reasoning'],ordinal,public,False,True,18.0,8776.0,11920.0,18.0,0.0,0.0,0.6641626577967679,0.10630664886023208
+tau2_bench,,tau2-bench,['text'],['agents_and_tool_use'],binary,public,True,True,31.0,2388.0,23210.0,29.0,26.0,26.0,0.7502642033763102,0.1404598807168329
+taubench,,tau-bench,['text'],['agents_and_tool_use'],binary,public,True,True,49.0,201.0,4314.0,2.0,0.0,2.0,0.5852272727272727,0.05196163467810236
+tengu,,Tengu-Bench,['text'],['multilingual'],ordinal,public,False,False,647.0,840.0,192440.0,647.0,4.0,20.0,,
+tensortrust,,Tensor Trust,['text'],['safety'],binary,public,True,True,3.0,570791.0,681726.0,0.0,0.0,0.0,,
+theagentcompany,,TheAgentCompany,['text' 'gui_screenshot'],['tool_use'],fraction,public,False,True,19.0,175.0,3056.0,17.0,5.0,12.0,0.31457584873029676,0.19240143124153905
+threeeed,,3EED,['text' 'image' 'point_cloud'],['reasoning' 'general'],continuous,public,False,True,4.0,8616.0,17232.0,0.0,0.0,0.0,,
+truthfulqa_mc,,TruthfulQA-MC,['text'],['knowledge'],binary,public,True,True,150.0,817.0,122550.0,150.0,0.0,0.0,0.28586699306405544,0.06322453502548885
+tulu_human_eval,,Tulu Human Evaluation,['text'],['instruction_following'],binary,public,True,True,4.0,1028.0,2300.0,3.0,0.0,3.0,0.7746671508109416,0.11753738226978301
+tumlu,,TUMLU,['text'],['multilingual'],binary,public,True,True,30.0,128016.0,137388.0,3.0,0.0,0.0,0.36417989417989416,0.3203187319391018
+vhelm,,VHELM,['image' 'text'],['vision_language' 'general'],mixed,public,False,False,112.0,93127.0,931434.0,22.0,0.0,12.0,,
+visit_bench,,VisIT-Bench,['image' 'text'],['preference'],mixed,public,False,True,19.0,2391.0,71406.0,18.0,0.0,0.0,0.5004969120324732,0.15250095805665786
+visual_memory,,"Visual Memory: ImageNet-A, ImageNet-R and ImageNetV2 retrieval results",['image'],['computer_vision'],binary,withheld,True,True,5.0,47500.0,237500.0,0.0,0.0,0.0,,
+visual_riddles,,Visual Riddles,['image' 'text'],['reasoning' 'knowledge'],binary,public,True,True,8.0,793.0,3186.0,8.0,0.0,0.0,0.2728307888040713,0.13591105131545822
+visualwebarena,,VisualWebArena,['text' 'gui_screenshot'],['agents_and_tool_use'],binary,public,True,True,5.0,200.0,600.0,3.0,1.0,2.0,0.2602380952380952,0.043508932541311024
+vl_rewardbench,,VL-RewardBench,['text' 'image'],['reward_modeling' 'preference'],binary,public,True,True,16.0,1532.0,105697.0,1.0,0.0,1.0,0.49891891891891893,
+weavebench,,WeaveBench,['text' 'image' 'gui_screenshot'],['agents_and_tool_use' 'software_engineering'],binary,public,True,True,7.0,114.0,114.0,0.0,0.0,0.0,,
+wikihow_agent,,WikiHowAgent,['text'],['education'],binary,public,True,True,12.0,14287.0,171412.0,0.0,0.0,0.0,,
+wildvision,,WildVision-Bench,['image' 'text'],['preference'],ordinal,public,False,True,22.0,500.0,10974.0,22.0,0.0,20.0,0.40833139338731445,0.17674710660443116
+wmt_mqm,,WMT MQM: per-rater error indicators,['text'],['translation' 'multilingual'],binary,public,True,True,113.0,207090.0,4879368.0,0.0,0.0,0.0,,
+wonderbread,,WONDERBREAD,['image' 'text'],['agents' 'general'],mixed,public,False,False,38.0,9091.0,21231.0,26.0,0.0,0.0,,
+workarena,,WorkArena,['text' 'gui_screenshot'],['agents_and_tool_use'],binary,public,True,True,8.0,385.0,475.0,4.0,1.0,2.0,0.1666990291262136,0.049163486633983414
+workbench_revisited,,WorkBench Revisited,['text'],['agents_and_tool_use'],binary,public,True,True,24.0,690.0,16560.0,24.0,20.0,24.0,0.7385869565217392,0.18028285093282043
+worldcentralbanks,,WorldCentralBanks: released LLM classifications,['text'],['natural_language_processing' 'finance'],binary,public,True,True,10.0,119925.0,405558.0,0.0,0.0,0.0,,
+xstest,,XSTest,['text'],['safety'],nominal,public,False,False,5.0,2250.0,11239.0,0.0,0.0,0.0,,

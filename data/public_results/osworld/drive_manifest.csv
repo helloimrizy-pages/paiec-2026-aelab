@@ -1,0 +1,64 @@
+drive_id,label,file_name,size_bytes,n_result_txt,used_in_build
+1-32Vw7fRRJYrYXS5mLGb-0dAz96e750D,Screenshot_A11y_tree|Llava-OneVision,llava-next.zip,3084635352,369,True
+10AL-m6I_h_GYJMfPIl9lk8i2FOH8k9Bb,A11y_tree|Llama-3-70B,llama3-70b.zip,6604024809,369,True
+12WHatS-PNdsOSzx4fazFb0I8Lw5ZaprZ,Screenshot|GTA1 w/ o3 (100 steps) GTA1-7B.zip,GTA1-7B.zip,4265234462,0,False
+12wOrMDSf5E_1EOCybj4uB56L8TzCgL0G,AgentS2|mac_mini_tmp/result.zip,result.zip,10578683769,486,False
+14mFPz5iYrpn3ET3b_fI_VffxISSPrGFw,AgentS2|s2_5/results_gemini_2p5_uitars_72b_100_steps.zip,results_gemini_2p5_uitars_72b_100_steps.zip,2553242678,369,True
+15DmqvnXDKNbinU3QICfYRahHCMyhbQma,AgentS2|s2_and_before/results_gemini_2_5_pro_50_step.zip,results_gemini_2_5_pro_50_step.zip,5339055197,369,True
+15O6B2poXnN6VxHVOyJCjv94Ltx9qnVJi,Set-of-Mark|GPT-4o-mini,gpt-4o-mini.zip,4739219258,369,True
+16H44qC5n2yz68po-DSifqsFkmLnqp8rU,Screenshot_A11y_tree|GPT-4 Vision,gpt-4-vision-preview.zip,6550526503,371,True
+16y7s_8dX6O1Idg5glrDb8AsITn40QPsv,root|TianXi_Action_7B-Lenovo_Research_PCIE_Lab_0618.zip,TianXi_Action_7B-Lenovo_Research_PCIE_Lab_0618.zip,5482266680,358,True
+17jgZEjslxIZPC5kuzOq6oTK5EuDiJ-_l,Screenshot|Gemini-Pro Vision,gemini-pro-vision.zip,6134239637,369,True
+18XTQE8orPu2Fh8o4A3QsJMy9rxlTOcSa,root|jedi-7b.zip,jedi-7b.zip,5991756735,360,True
+19P45SaQGgktuGSv_zWxzYRkqSx0aiJSk,AgentS2|s2_5/results_gemini_2p5_uitars_72b_50_steps.zip,results_gemini_2p5_uitars_72b_50_steps.zip,2430873544,369,True
+19RppvbiJ2Ajdfy9vBICw3JWeQHJwztzd,AgentS2|s2_and_before/results_sonnet_3_7_thinking_15_step_with_infeasible.zip,results_sonnet_3_7_thinking_15_step_with_infeasible.zip,3948132466,369,True
+19llLwbfmjJIAACxpbXVKdRdvITsLhcG8,A11y_tree|GPT-3.5,gpt-3.5-turbo-16k.zip,2535424997,367,True
+1A6UY39J-6MM2S5BghMLsFUIjr4U3mvhK,AgentS2|s2_and_before/results_sonnet_3_7_thinking_50_step_with_infeasible.zip,results_sonnet_3_7_thinking_50_step_with_infeasible.zip,7812395456,369,True
+1B4N6Hog3SuoTV2KL21hwANgdDbex4Oh8,Screenshot_A11y_tree|GPT-4o,gpt-4o.zip,6385721989,369,True
+1BbtYapsRdcwdnHLpYBtxIO6ukT185Rc4,AgentS2|s2_and_before/results_sonnet_3_7_thinking_50_step_wo_infeasible.zip,results_sonnet_3_7_thinking_50_step_wo_infeasible.zip,7812598690,369,True
+1EOt8qzzQT0djkRZkTcVC7t1UvOPRyyyx,A11y_tree|GPT-4o,gpt-4o.zip,6907331993,369,True
+1F-nKdsxC87wk1dc4Eau7xwVSyozA8Vdn,A11y_tree|Qwen-Max / Qwen-vl-Max-0809 (same link),qwen-max.zip,6177803239,369,True
+1F5R0NmEeHc-VysE0my_dzwA2b2-xHa1M,Screenshot_A11y_tree|R-MCTS w/ GPT-4o (max 60 tree nodes),rmcts_screenshot-a11ytree_osworld_submission.gz,471354,,True
+1FP7U6QlGn1NUqQucLnUzKy_IfKotYQb1,Set-of-Mark|Gemini-Pro Vision,gemini-pro-vision.zip,5869567571,369,True
+1G59RtEDg4-jVEjUwHlDV1NKvPQA9antF,Set-of-Mark|GPT-4o,gpt-4o.zip,2521439994,369,True
+1KSYs7ZOhEkjBQX5UnMpLkbxZZ6BLhbDm,Screenshot|InternVL2,intern-vl2.zip,11633179912,369,True
+1KyRWM5xrI0lW_hUqgjpKmA-xfNSk5z_1,Screenshot_A11y_tree|Qwen-vl-Max-0809,qwen-vl-max.zip,1643642211,214,True
+1LXe4zhTsQ-_HQl9it2nOlLAirqnSu633,Screenshot|Gemini-Pro-1.5 all_result.json,all_result.json,16823,,True
+1M-PAz9S7cvYR8T6-VIEZKMbw7yVTN5je,Screenshot|InfantAgent (50 steps),InfantAgent.zip,4539551567,369,True
+1M6LG3EMiZrQE5nLu2EmuMctLnbmRrSIo,Set-of-Mark|Claude-3-Opus,claude-3-opus-20240229.zip,4283688999,369,True
+1M_PrEoBSNGB-Uc4TJoxOoLEizibLdw5g,AgentS2|s2_5/results_o3_tars1p5_50_steps.zip,results_o3_tars1p5_50_steps.zip,2496887721,369,False
+1ORbBMykNgd1J-CwXDGxrXGifjl8Owoij,AgentS2|s2_5/results_gemini_2p5_uitars_72b_15_steps.zip,results_gemini_2p5_uitars_72b_15_steps.zip,1633646221,369,False
+1PpuM2-EHlRAJ6QzD3ET6zYH9_D0S9x3x,root|jedi-3b.zip,jedi-3b.zip,5286279303,360,True
+1QdYgLmpCXNNoBD07XxW-rFHuRtv7sZPp,A11y_tree|Gemini-Pro,gemini-pro.zip,5179754405,369,True
+1Skq_uMcAR08LMDnIpOswjxm5ntbVXm5M,Screenshot|GPT-4o-mini,gpt-4o-mini.zip,4101927970,369,True
+1T58G_EIr4pWZYJ8plXEWspFHr35g-Nsy,Screenshot|MiniCPM-V 2.6,minicpmv_2_6.zip,3748849599,369,True
+1TPfH3wY0ujBHioZHRztwIFl45mOvBIbg,AgentS2|s2_and_before/results_sonnet_3_7_thinking_15_step_wo_infeasible.zip,results_sonnet_3_7_thinking_15_step_wo_infeasible.zip,3947743257,369,True
+1VVwKu-QT26GjyR--emUwenXqZ1jNC4Mc,Screenshot|Qwen-vl-Max-0809 all_result.json,all_result.json,16762,,True
+1XJiHGMJvExo0c_kFI6SRGpoGBPvInLDR,A11y_tree|GPT-4,gpt-4-0125-preview.zip,2914267701,370,True
+1XzSizbZ_R93MSZc9A5WQQamZ5e-keiIS,root|uitars-1.5-7b.zip,uitars-1.5-7b.zip,8772358368,0,False
+1YFsNMKTzB1Cgo4xWexw2syFjLoxSNUBx,Screenshot_A11y_tree|Gemini-Pro Vision,gemini-pro-vision.zip,3090569731,369,True
+1ZLo7ytn8xEPqzb3FLNhfsOMnc6OoqKHF,AgentS2|s2_and_before/results_sonnet_3_5_50_step_wo_infeasible.zip,results_sonnet_3_5_50_step_wo_infeasible.zip,6292801251,369,True
+1a78Tg0MguATou3e8pIO02PF0tqqznXKB,A11y_tree|Gemini-Pro-1.5,gemini-1.5-pro-latest.zip,5088421816,369,True
+1aCzGfmBUU_CM6O0xMeOnlh_xRiTA5tjN,AgentS2|s2_and_before/results_gemini_2_5_pro_15_step.zip,results_gemini_2_5_pro_15_step.zip,3902915619,369,True
+1e7SCYqpxFX2FCGEOhf6jcVvwkx3leIKf,Screenshot|UI-TARS-1.5 (100 steps),uitars-1.5.zip,6095508598,0,False
+1eS-bFBpYkLLhK7AUQIfv_m4h6NM2Cvkp,AgentS2|s2_and_before/results_sonnet_3_5_15_step_wo_infeasible.zip,results_sonnet_3_5_15_step_wo_infeasible.zip,3722284722,367,True
+1ezGgCb05ZH6Y8fakQ6m4yQiizy-5KTW5,A11y_tree|GPT-4 Vision (0409),gpt-4-turbo-2024-04-09.zip,3977249634,369,True
+1fXNamXtbXwZKiSOhoAEUmHQoJ3biOffQ,Screenshot_A11y_tree|GPT-4o-mini,gpt-4o-mini.zip,4503061546,369,True
+1geppLqwV80p66bXdffVBbLayjCkIQ9mk,Screenshot|Llava-OneVision,llava-next.zip,2866102266,369,True
+1hW-4TPo1pyN1AiYnYRnQx4MhANzilKpY,Set-of-Mark|GPT-4 Vision (0409),gpt-4-turbo-2024-04-09.zip,5808849997,368,True
+1hhvTLnWOs8s7SCvGsc15ECV3i9vmszxu,AgentS2|s2_5/results_o3_tars1p5_15_steps.zip,results_o3_tars1p5_15_steps.zip,1692234398,369,False
+1lWWaEU2dr-yGU9evObdMpLW_qlq3ztaC,AgentS2|s2_5/results_o3_tars1p5_100_steps.zip,results_o3_tars1p5_100_steps.zip,2769930369,369,False
+1lxDcOyQpi0Ysiw2HIowSb2-slyY5KBY8,Screenshot_A11y_tree|Gemini-Pro-1.5,gemini-1.5-pro-latest.zip,5522682156,369,True
+1mN12zjCiawfU4k1ifPsLW-hcuzPV7Voz,Screenshot|GPT-4o,gpt-4o.zip,3907760241,369,True
+1miMp-AR_hOfLUWszGb_aZG2f_Nd66Ntt,Screenshot|GPT-4 Vision,gpt-4-vision-preview.zip,5454186666,374,True
+1msv8AcdvAR1cm1aDOi_HArlgTKzcYGys,A11y_tree|GPT-4o-mini,gpt-4o-mini.zip,3386924415,369,True
+1oR2e0QHhzYJh5R-m22SK8orypRyPXz9n,AgentS2|s2_and_before/results_gpt4o_15_step_wo_infeasible.zip,results_gpt4o_15_step_wo_infeasible.zip,3825130685,369,True
+1p83vSc48O1cB8ld2pWai35lLR4dHMhRB,Screenshot|GPT-4 Vision (0409) all_result.json,all_result.json,16823,,True
+1qEY7LNc00qnAoAcS5kzPX6WkAp-tqz0s,A11y_tree|Llava-OneVision,llava-next.zip,2204847585,368,True
+1qlw5ejuNw_q6gf4iz3Vycc3QL8ArCVkY,Set-of-Mark|Llava-OneVision,llava-next.zip,3167902949,369,True
+1r5mhSrhO_86XN4jpmdbWFdFC3k9GdZga,AgentS2|s2_and_before/results_sonnet_3_5_50_step_with_infeasible.zip,results_sonnet_3_5_50_step_with_infeasible.zip,6294156808,369,True
+1rQelSpJAtiyQz6V9CK4ZrUXKIwvMqi_S,Screenshot_A11y_tree|GPT-4 Vision (0409),gpt-4-turbo-2024-04-09.zip,4836700807,369,True
+1svJtLg96MFByPM21xin6q3hL5Ksics2W,Set-of-Mark|GPT-4 Vision,gpt-4-vision-preview.zip,7470769686,374,True
+1t-w6OAQHfmRplHbi93aWXZlOBwOQkwY2,Screenshot|UI-TARS-1.5 7B (100 steps),,,,False
+1vUWlXVenkOc5F1s-z8DdpfU4Y5fUMssr,Screenshot|UI-TARS-72B-DPO (50 steps),uitars-72b-dpo.zip,8760324345,0,False
+1y4PG8HeFR6J1vOqi3peQqq7xHuLfgPGN,AgentS2|s2_and_before/results_gpt4o_50_step_wo_infeasible.zip,results_gpt4o_50_step_wo_infeasible.zip,7257278321,369,True

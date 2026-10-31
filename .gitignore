@@ -1,0 +1,31 @@
+# secrets and builds
+*.env
+dist/
+*_private.zip
+**/judge_cache/
+# hidden-test feedback (never commit)
+data/submissions/
+# downloaded or built data
+data/measurement-db/
+data/downloads/
+measurement-db-code/
+data/public_results/*/*.parquet
+data/public_results/*/models.csv
+data/public_results/*/runs.csv
+data/public_results/*/submissions.csv
+data/public_results/*/vlm_system_prompt.txt
+data/public_results/*/build_summary.json
+lab/features/h22_lib/
+data/mdb_full/
+# outputs of the eval scripts (the shipped inputs stay tracked)
+eval/results/*
+!eval/results/ext/
+!eval/results/h21_constants.json
+!eval/results/v7_constants.json
+/results/
+# local
+.venv/
+lab/.venv/
+__pycache__/
+*.pyc
+.DS_Store
