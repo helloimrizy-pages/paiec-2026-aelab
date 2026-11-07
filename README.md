@@ -64,7 +64,7 @@ The check refits the calibration from the cached judge and attempt outputs and a
 
 ## 3. Reproduce the report's results
 
-Run every command from `lab/` with the environment active. None of them calls an API. Times are wall-clock times on one Apple M4 Max laptop.
+Run every command from `lab/` with the environment active. None of them calls an API. Times are approximate wall-clock times on one Apple M4 Max laptop; they vary from run to run.
 
 | Result in the report | Command | Time |
 |---|---|---|
@@ -89,7 +89,7 @@ Notes:
 Results that this repository cannot rerun:
 
 - v1, v2 and the two ladder steps between v2 and v3, and the step that used the reasoning tokens of one attempt;
-- the simulator checks against the hidden scores, and the analysis of score against success rate in Appendix A of the report;
+- the simulator checks against the hidden scores, and the analysis of score against success rate in Appendix B of the report;
 - the negative results other than the extra calibration benchmarks, the oracle analyses, and the false-match scan of 57,796 checkpoint items.
 
 These ran in earlier development code that depends on further caches. The hidden-test scores come from the competition platform and cannot be rerun offline.
