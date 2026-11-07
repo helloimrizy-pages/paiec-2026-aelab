@@ -74,6 +74,7 @@ Run every command from `lab/` with the environment active. None of them calls an
 | Development ladder: v8; the refit variants of the level calibration | `python ../eval/h21.py pilot 5 20 h21all pilot,ckpt_head,ckpt_level,ckpt_both,ckpt_lw,both_both,blend50` | 287 s |
 | Level error on the 97 checkpoint benchmarks (0.273 to 0.205) | `python ../eval/h21.py diag` | 2 s |
 | Short episodes on the 97 checkpoint benchmarks (refit and v8 gains) | `python ../eval/h21c.py` | 11 s |
+| Judge vs labels only on the 97 checkpoint benchmarks (final model form) | `python ../eval/transfer_check.py` | 16 s |
 | Development ladder: v9 core; Opus as a third attempter | `python ../eval/h23_ens.py 5 20 primary luna,luna+haiku,luna+haiku+opus` | 113 s |
 | Within-pair AUC of each attempter's effort score | `python ../eval/attempt_auc.py luna,haiku,sonnet,opus,luna+haiku` | 2 s |
 | Library simulation (all regimes and budgets) | `python ../eval/h22_sim.py 5 20` | 48 s |
