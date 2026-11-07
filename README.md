@@ -50,7 +50,7 @@ OPENAI_API_KEY=... ANTHROPIC_API_KEY=... python tools/build_zip.py v9_lib
 
 - The script first checks both keys with free model-list requests. It then writes `dist/v9_lib_private.zip` (keys inside; upload this one to Codabench) and `dist/v9_lib_public.zip` (no keys). `ANTHROPIC_WORKSPACE_ID` is optional.
 - At scoring time the program calls gpt-5.6-luna through the OpenAI Responses API and claude-haiku-5-5 through the Anthropic Messages API. It uses no other network access.
-- One hidden-test run costs an estimated $5 in API calls.
+- From the per-item costs of our development batches at standard prices, one hidden-test run of 1,000 subject–item combinations costs up to about $6.40 in API calls.
 - API outputs are not bitwise reproducible, so a rerun gives slightly different predictions. A single hidden-test draw also has a standard deviation of about 0.02 in Brier ALC, so a run on a new draw will not match our scores exactly.
 
 ## 2. Offline check (no API calls)
@@ -90,7 +90,7 @@ Results that this repository cannot rerun:
 
 - v1, v2 and the two ladder steps between v2 and v3, and the step that used the reasoning tokens of one attempt;
 - the simulator checks against the hidden scores, and the analysis of score against success rate in Appendix A of the report;
-- the negative results other than the extra calibration benchmarks, the oracle analyses, the false-match scan of 57,796 checkpoint items, and the agreement rates across harnesses.
+- the negative results other than the extra calibration benchmarks, the oracle analyses, and the false-match scan of 57,796 checkpoint items.
 
 These ran in earlier development code that depends on further caches. The hidden-test scores come from the competition platform and cannot be rerun offline.
 
